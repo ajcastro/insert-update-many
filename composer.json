@@ -1,0 +1,29 @@
+{
+    "name": "ajcastro/insert-update-many",
+    "description": "Laravel's batch insert or batch update for collection of eloquent models.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arjon Jason Castro",
+            "email": "ajcastro29@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AjCastro\\InsertUpdateMany\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AjCastro\\InsertUpdateMany\\ServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
